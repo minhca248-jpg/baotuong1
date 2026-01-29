@@ -1,0 +1,75 @@
+body{ font-family:"Time News Roman"; background-color:#fdf5e6; }
+* { margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+.tdh{ display: flex;
+padding: 10px 50px ;
+top: 0;
+background-color: #fff;
+justify-content: space-between;
+ position: fixed;
+ width: 100%;
+ }
+.dhnho{list-style: none; display: flex;}
+.dhnho li {margin-left: 30px; font-size: 3vh; font-weight: bold;}
+.dhnho a{ display: inline-block; 
+text-decoration:none;
+transform: all 0.3s ease;
+color: #555555;
+}
+.dhnho a:hover {
+    color: #d4af37; /* Đổi màu vàng kim */
+        
+    /* Di chuyển lên trên 3px (số âm là đi lên) */
+     transform: translateY(-3px); 
+    }
+
+.logo{ font-weight: bold;
+    color: #8b0000;
+    font-family: serif;
+     }
+.hoptieude{ padding: 40vh;
+    text-align: center;
+    color: white;}
+.tieude{ font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;}
+.chia2{ padding: 80px 10%;
+background-color: #FFE4E1; }
+.khoi{ display:flex; align-items:center; gap: 50px; }
+.khoihinhanh{ flex: 1; }
+.khoinoidung{ flex: 1; text-align:left; }
+.tieudenho{ text-align:center; color:#EE2C2C ; font-size: 3vh; font-family: Garamond; padding-top: 20px; }
+.gachnho{ border-bottom: 2px solid #FFFF66; padding-bottom:3px; display: inline-block; }
+.hieuung1{ font-size: 18px; line-height: 1.6; }
+.the{ display:grid; gap: 30px; margin-top:30px;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
+.thenho{ background-color: white; overflow: hidden; transform: all 0.3s ease;}
+.thenho:hover{color: #d4af37; /* Đổi màu vàng kim */
+        
+    /* Di chuyển lên trên 3px (số âm là đi lên) */
+     transform: translateY(-3px); 
+        }
+.theanh{ height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: #eee; }
+.thenoidung{ padding: 20px;
+    text-align: left; }
+textarea {
+            padding: 10px 50px;
+            margin: 20px;
+            border: 1px solid #ddd;          
+            margin-bottom: 10px;
+        }
+.hopnho1{ background-color:gray; }
+.logonho{ height:50px; width: auto; }
+.input{ width:88%;
+padding: 12px 20px; font-size:15px;  }
+iframe{ width: auto; height:300px; }
+.nut{display: flex;
+    justify-content: center; width: auto; height: 40px;}
+.hieuung2{ font-size: 20px; line-height:1.8; text-align:center; margin: 30px 30px; padding: 10vh; }
+.hieuung3{ font-weight:bold; font-size: 40px; }
+.nen{background-image: url('nen.jpg');
+  background-size: cover;}
